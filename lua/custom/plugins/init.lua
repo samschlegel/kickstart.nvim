@@ -3,6 +3,7 @@
 --
 -- See the kickstart.nvim README for more information
 return {
+<<<<<<< Updated upstream
   {
     'mrcjkb/rustaceanvim',
     version = '^4',
@@ -35,4 +36,7 @@ return {
       dap = {},
     },
   },
+=======
+  'github/copilot.vim',
+>>>>>>> Stashed changes
 }
