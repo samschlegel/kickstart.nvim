@@ -35,9 +35,9 @@ return {
   --     dap = {},
   --   },
   -- },
-  {
-    'github/copilot.vim',
-  },
+  -- {
+  --   'github/copilot.vim',
+  -- },
   {
     'christoomey/vim-tmux-navigator',
     cmd = {
