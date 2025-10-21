@@ -439,6 +439,9 @@ require('lazy').setup({
     name = 'native-lsp-config',
     lazy = false,
     priority = 100,
+    dependencies = {
+      'neovim/nvim-lspconfig',
+    },
     config = function()
       -- Brief aside: **What is LSP?**
       --
@@ -544,7 +547,7 @@ require('lazy').setup({
       -- Enable language servers
       -- Configuration for each server is in ~/.config/nvim/lsp/<server_name>.lua
       -- Add new language servers here after creating their config files
-      vim.lsp.enable { 'lua_ls', 'nil_ls' }
+      vim.lsp.enable { 'lua_ls', 'nil_ls', 'rust_analyzer', 'ts_ls' }
     end,
   },
 
